@@ -1,0 +1,47 @@
+.row{
+    background-color:rgba(255, 255, 255, 0.863);
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto 1rem auto;
+}
+
+.form-group label {
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.centered-select {
+    width: 100%;
+}
+
+.btn-reset{
+    width: 250px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.inline-text-boxes {
+    display: flex;
+    align-items: center;
+}
+.inline-text-boxes input[type="text"] {
+    display: inline-block;
+    border: 1px solid #000;
+}
+.currency {
+    width: 50px;
+}
+.price {
+    max-width: 350px;
+    width: 100%;
+}
+.inline-text-boxes input.currency + input.price {
+    margin-left: -1px;
+}
